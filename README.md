@@ -1,6 +1,6 @@
 # sf-nebula-dml-ops
 
-* Light wrapper for Salesforce DML Operations, that logs to Nebula.
+* Light wrapper for Salesforce DML Operations, that logs to Nebula Logger.
 * Requires [Nebula Logger](https://github.com/jongpie/NebulaLogger).
 
 
