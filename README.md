@@ -1,5 +1,7 @@
 # sf-nebula-dml-ops
-DML wrapper that logs to Nebula. Requires Nebula Logger.
+
+* Light DML wrapper that logs to Nebula.
+* Requires [Nebula Logger](https://github.com/jongpie/NebulaLogger).
 
 
 ## Usage
@@ -91,3 +93,15 @@ try {
     // Handle as needed
 }
 ```
+
+## Example Logs
+
+### Log
+<img width="2305" height="559" alt="Image" src="https://github.com/user-attachments/assets/0a4b293b-cb37-4ae6-a86f-1b7d15119fc3" />
+
+### Log Entry
+<img width="1782" height="742" alt="Image" src="https://github.com/user-attachments/assets/2f015653-fb4a-4eab-883a-f9b4c46b77f2" />
+
+### Log Entry Details
+<img width="1800" height="749" alt="Image" src="https://github.com/user-attachments/assets/efbc713e-d682-4bc0-a91f-f3bd19739e26" />
+
