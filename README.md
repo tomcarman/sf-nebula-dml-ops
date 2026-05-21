@@ -12,7 +12,7 @@
 | ------------- | ----------------------- |
 | Insert        | DmlOps.create()         |
 | Update        | DmlOps.modify()         |
-| Upsert        | DmlOps.upsrt() // TODO  |
+| Upsert        | DmlOps.upsrt()          |
 | Delete        | DmlOps.remove() // TODO |
 
 
@@ -58,7 +58,6 @@ List<Account> accounts = new List<Account>{new Account()};
 List<Database.SaveResults> results = DmlOps.create(accounts);
 ```
 
-
 ### Insert Records with Options
 ```
 List<Account> accounts = new List<Account>{new Account()};
@@ -93,6 +92,13 @@ try {
     // Handle as needed
 }
 ```
+
+### Upsert with an external key
+
+```
+List<Database.UpsertResult> upsertResults = DmlOps.upsrt(accountsToUpsert, new DmlOps.Options(new Map<String, Object>{ 'externalIdField' => Account.Some_External_Id__c }));
+```
+
 
 ## Example Logs
 
